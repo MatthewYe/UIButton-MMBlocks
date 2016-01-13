@@ -15,6 +15,7 @@
 		41676BFE1C4649C500D4A6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41676BFC1C4649C500D4A6CD /* LaunchScreen.storyboard */; };
 		41676C091C4649C500D4A6CD /* UIButtonBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41676C081C4649C500D4A6CD /* UIButtonBlocksTests.m */; };
 		41676C141C4649C500D4A6CD /* UIButtonBlocksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41676C131C4649C500D4A6CD /* UIButtonBlocksUITests.m */; };
+		41676C241C4649F400D4A6CD /* UIButton+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 41676C231C4649F400D4A6CD /* UIButton+Blocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		41676C0F1C4649C500D4A6CD /* UIButtonBlocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonBlocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41676C131C4649C500D4A6CD /* UIButtonBlocksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonBlocksUITests.m; sourceTree = "<group>"; };
 		41676C151C4649C500D4A6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41676C221C4649F400D4A6CD /* UIButton+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Blocks.h"; sourceTree = "<group>"; };
+		41676C231C4649F400D4A6CD /* UIButton+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Blocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		41676BED1C4649C500D4A6CD /* UIButtonBlocks */ = {
 			isa = PBXGroup;
 			children = (
+				41676C211C4649E500D4A6CD /* Classes */,
 				41676BF11C4649C500D4A6CD /* AppDelegate.h */,
 				41676BF21C4649C500D4A6CD /* AppDelegate.m */,
 				41676BF41C4649C500D4A6CD /* ViewController.h */,
@@ -138,6 +142,15 @@
 				41676C151C4649C500D4A6CD /* Info.plist */,
 			);
 			path = UIButtonBlocksUITests;
+			sourceTree = "<group>";
+		};
+		41676C211C4649E500D4A6CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41676C221C4649F400D4A6CD /* UIButton+Blocks.h */,
+				41676C231C4649F400D4A6CD /* UIButton+Blocks.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				41676BF61C4649C500D4A6CD /* ViewController.m in Sources */,
 				41676BF31C4649C500D4A6CD /* AppDelegate.m in Sources */,
 				41676BF01C4649C500D4A6CD /* main.m in Sources */,
+				41676C241C4649F400D4A6CD /* UIButton+Blocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
