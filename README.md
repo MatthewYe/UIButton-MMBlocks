@@ -1,6 +1,7 @@
 # UIButton-MMBlocks
 
 Add feature to UIButton,now your can use
+
 @selctor(addAction:(ButtonBlock)block forControlEvent:(UIControlEvents)controlEvent)
 to add multiple action blocks to UIButton instead of 
 @selector(addTarget:action:ForControlEvent:)
